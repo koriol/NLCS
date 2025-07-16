@@ -34,11 +34,11 @@ ul {
 
 /* Header & Navigation */
 header {
-    background: #343A40; /* Dark Blue */
+    background: #343A40; /* Dark Graphite */
     color: #fff;
-    padding-top: 20px;
+    padding-top: 10px;
     min-height: 70px;
-    border-bottom: #DC143C 3px solid; /* Slightly Lighter Blue Accent */
+    border-bottom: #DC143C 3px solid; /* Red Accent */
 }
 
 header a {
@@ -61,15 +61,16 @@ header #branding {
 
 header #branding h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 32px;
     color: #fff;
 }
 
 header #branding .logo-text-sub {
-    font-size: 12px;
+    font-size: 18px;
     color: #ccc;
-    margin-left: 10px;
     text-transform: none;
+    font-stretch: expanded;
+    letter-spacing: 1px;
 }
 
 
