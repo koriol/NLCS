@@ -205,7 +205,7 @@ header nav ul li a:hover {
 .testimonial-slider {
   display: flex;
   width: 100%; /* Make sure the slider fills the container */
-  animation: scroll 20s linear infinite; /* Adjust speed as needed */
+  animation: scroll 25s linear infinite; /* Adjust speed as needed */
 }
 
 .testimonial-item {
