@@ -205,12 +205,12 @@ header nav ul li a:hover {
 .testimonial-slider {
   display: flex;
   width: 100%; /* Make sure the slider fills the container */
-  animation: scroll 25s linear infinite; /* Adjust speed as needed */
+  animation: scroll 30s linear infinite; /* Adjust speed as needed */
 }
 
 .testimonial-item {
   min-width: 100%; /* Make sure each item fills the container */
-  padding: 20px;
+  padding: 60px;
   box-sizing: border-box;
   text-align: center; /* Center the text within each item */
 }
