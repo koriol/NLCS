@@ -195,6 +195,15 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.content-page img {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid #343A40; /* Dark Blue/Gray border */
+}
+
 /* Testimonials Section */
 .testimonials-container {
   width: 80%;
@@ -205,7 +214,7 @@ header nav ul li a:hover {
 .testimonial-slider {
   display: flex;
   width: 100%; /* Make sure the slider fills the container */
-  animation: scroll 30s linear infinite; /* Adjust speed as needed */
+  animation: scroll 35s linear infinite; /* Adjust speed as needed */
 }
 
 .testimonial-item {
@@ -377,14 +386,14 @@ footer p {
 }
 
 /* Responsive Design */
-@media(max-width: 768px) {
+@media(max-width: 750px) {
     header .container {
         flex-direction: column;
         align-items: flex-start;
     }
 
     header nav {
-        margin-top: 10px;
+        margin-top: 8px;
         width: 100%;
     }
 
@@ -426,5 +435,11 @@ footer p {
 
     .container {
         width: 95%;
+    }
+
+    .content-page img {
+        display: block;
+        width: 50%;
+        margin: 0 auto 20px auto; /* Center the image */
     }
 }
