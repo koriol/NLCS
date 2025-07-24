@@ -254,6 +254,14 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
 .news-item a:hover {
     text-decoration: underline;
 }
