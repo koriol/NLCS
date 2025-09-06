@@ -153,6 +153,20 @@ header nav ul li a:hover {
     z-index: 1;
 }
 
+.background-section-stock1 {
+    background-image: url('Images/Stock1.png');
+    padding: 60px 0;
+    background-size: cover;
+    background-position: 0% -75px;
+}
+
+.background-section-stock2 {
+    background-image: url('Images/Stock2.png');
+    padding: 60px 0;
+    background-size: cover;
+    background-position: 0 1%;
+}
+
 .hero-section h1 {
     font-size: 48px;
     margin-bottom: 20px;
