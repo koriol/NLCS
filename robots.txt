@@ -1,0 +1,13 @@
+Robots.txt for https://nlcoachingsolutions.com
+
+User-agent: *
+Allow: /
+
+# Directories to exclude from crawling
+
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Path to the XML Sitemap
+
+Sitemap: https://www.google.com/search?q=https://nlcoachingsolutions.com/sitemap.xml
